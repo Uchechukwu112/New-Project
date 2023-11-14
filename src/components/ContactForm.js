@@ -35,7 +35,7 @@ export default function ContactForm() {
                 <label htmlFor="message">Your Message</label>
                 <textarea onChange={(e) => setMessage(e.target.value)} value={message} className="h-32 p-3" id="message" placeholder="Type your message here..."></textarea>
             </div>
-            <button className="bg-green-300 p-3 text-white font-bold" type="submit">Send</button>
+            <button className="bg-green-500 p-3 text-white font-bold" type="submit">Send</button>
         </form>
     
         <div className="bg-slate-100 flex flex-col">
